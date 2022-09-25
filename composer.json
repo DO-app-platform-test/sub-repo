@@ -1,0 +1,21 @@
+{
+    "name": "do-app-platform-test/main-symfony-app",
+    "description": "Private repo test",
+    "type": "symfony-bundle",
+    "require": {
+        "php": ">=8.1",
+        "symfony/framework-bundle": "^6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pjanka\\PjankaToolsBundle\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maris Liepins",
+            "email": "maris.l@outlook.com"
+        }
+    ]
+}
